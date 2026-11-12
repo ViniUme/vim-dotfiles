@@ -1,9 +1,11 @@
 return {
   -- NOTE: Color theme
   {
-    "kcayme/bearded-arc.nvim",
+    "k8adev/hyper-term-black.nvim",
     lazy = false,
     priority = 1000,
-    opts = {},
-  }
+    config = function()
+      vim.cmd.colorscheme("hyper-term-black")
+    end,
+  },
 }

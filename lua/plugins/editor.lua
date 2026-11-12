@@ -3,13 +3,13 @@ return {
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
-    opts = {}
+    opts = {},
   },
 
   -- NOTE: Auto Tag
-{
-  "windwp/nvim-ts-autotag",
-  event = "LazyFile",
-  opts = {},
-}
+  {
+    "windwp/nvim-ts-autotag",
+    event = "LazyFile",
+    opts = {},
+  },
 }

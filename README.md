@@ -1,4 +1,4 @@
-# 💤 LazyVim
+# 💤 Vim Dotfiles
 
 ## Getting Started
 
